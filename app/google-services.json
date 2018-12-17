@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1092971546665",
+    "firebase_url": "https://fabartist-38d19.firebaseio.com",
+    "project_id": "fabartist-38d19",
+    "storage_bucket": "fabartist-38d19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092971546665:android:6d5a7ecea95a6732",
+        "android_client_info": {
+          "package_name": "com.samyotech.fabartist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092971546665-g9n1jp3l3lj2nkehdq8ho8gn79p0gkdr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samyotech.fabartist",
+            "certificate_hash": "52e0eb35bb196526f63b3d56aab4afe33842faec"
+          }
+        },
+        {
+          "client_id": "1092971546665-14qh10n6gm78u6g41f0k69plcuqkgac7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtEJI9acGrdYssTz1Buzn3MGoXqGhZiFc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092971546665-14qh10n6gm78u6g41f0k69plcuqkgac7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
