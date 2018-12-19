@@ -15,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
-        android:src="@drawable/fab" />
+        android:src="@drawable/fab_without" />
 
     <LinearLayout
         android:id="@+id/LLsign"
@@ -109,38 +109,35 @@
             android:textAllCaps="false"
             android:textColor="@color/white" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="184dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_below="@+id/CBsignIn">
+
+            <com.samyotech.fabartist.utils.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/didn_t_have_any_account"
+                android:textColor="@color/black" />
+
+            <com.samyotech.fabartist.utils.CustomTextView
+                android:id="@+id/CTVsignup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/sign_up"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/RRsncbar"
-        android:layout_alignEnd="@+id/LLsign"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="184dp"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal">
 
-        <com.samyotech.fabartist.utils.CustomTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/didn_t_have_any_account"
-            android:textColor="@color/black" />
-
-        <com.samyotech.fabartist.utils.CustomTextView
-            android:id="@+id/CTVsignup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:text="@string/sign_up"
-            android:textColor="@color/colorPrimary" />
-
-    </LinearLayout>
-
-    <RelativeLayout
-        android:id="@+id/RRsncbar"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:layout_alignParentBottom="true"></RelativeLayout>
 
 </RelativeLayout>
