@@ -11,12 +11,9 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
     <!-- Permission to use camera - required -->
-
-
     <!-- Camera features - recommended -->
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
@@ -54,9 +51,15 @@
                 android:resource="@xml/filepaths" />
         </provider>
 
+        <!--<meta-data-->
+            <!--android:name="com.google.android.geo.API_KEY"-->
+            <!--android:value="AIzaSyArfMm1YCgq6FCtxA7w_W-pOxJ_0D6GGy8" />       -->
+
+        <!--New One-->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyArfMm1YCgq6FCtxA7w_W-pOxJ_0D6GGy8" />
+            android:value="AIzaSyAhGX-tcW4rlMcK9iUJlQvIOi_MMFxuTeU" />
+
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@mipmap/ic_launcher" />

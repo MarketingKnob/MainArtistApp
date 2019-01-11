@@ -483,12 +483,17 @@ public class ArtistProfileView extends Fragment implements View.OnClickListener,
 
         if (requestCode == 101) {
             if (resultCode == RESULT_OK) {
-                place = PlaceAutocomplete.getPlace(getActivity(), data);
-                getAddress(place.getLatLng().latitude, place.getLatLng().longitude);
+                if (data != null) {
+                    place = PlaceAutocomplete.getPlace(getActivity(), data);
+                    getAddress(place.getLatLng().latitude, place.getLatLng().longitude);
+                }
 
 
             } else if (resultCode == PlaceAutocomplete.RESULT_ERROR) {
-                Status status = PlaceAutocomplete.getStatus(getActivity(), data);
+                Status status = null;
+                if (data != null) {
+                    status = PlaceAutocomplete.getStatus(getActivity(), data);
+                }
                 // TODO: Handle the error.
                 Log.e("Tag", status.getStatusMessage());
 
